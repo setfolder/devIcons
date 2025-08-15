@@ -1,0 +1,138 @@
+﻿* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+body {
+    font-family: Tahoma;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #F0F0F0;
+    border-bottom: 1px solid silver;
+}
+header h1 {
+    font-size: 130%;
+    font-weight: normal;
+}
+main {
+    display: flex;
+    min-height: calc(100vh - 50px);
+}
+aside {
+    width: 20%;
+    min-width: 250px;
+    border-right: solid 1px silver;
+    padding: 10px 20px;
+}
+#mainMenu > * {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#mainMenu > [id] {
+    cursor: default;
+}
+#mainMenu > [id]:hover {
+    text-decoration: underline;
+}
+#mainMenu img {
+    margin-right: 3px;
+}
+.subMenu {
+    margin-left: 20px;
+}
+#picControls {
+    display: flex;
+    padding: 10px;
+    user-select: none;
+}
+.sizes {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-right: 20px;
+    font-size: 90%;
+}
+#content {
+    flex: 1;
+    padding: 10px;
+}
+.grid {
+    display: grid;
+    padding: 10px 10px 20px 10px;
+}
+.grid20 {
+    grid-auto-rows: 20px;
+    grid-template-columns: repeat(auto-fill, 20px);
+    grid-gap: 10px;
+}
+.grid30 {
+    grid-auto-rows: 30px;
+    grid-template-columns: repeat(auto-fill, 30px);
+    grid-gap: 15px;
+}
+.grid35 {
+    grid-auto-rows: 35px;
+    grid-template-columns: repeat(auto-fill, 35px);
+    grid-gap: 20px;
+}
+.grid40 {
+    grid-auto-rows: 40px;
+    grid-template-columns: repeat(auto-fill, 40px);
+    grid-gap: 20px;
+}
+.grid50 {
+    grid-auto-rows: 50px;
+    grid-template-columns: repeat(auto-fill, 50px);
+    grid-gap: 20px;
+}
+.grid195 {
+    grid-auto-rows: 195px;
+    grid-template-columns: repeat(auto-fill, 195px);
+    grid-gap: 20px;
+}
+.gimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: solid 1px transparent;
+}
+.gimg img:hover {
+    border: solid 1px;
+}
+.gtxtS {
+    font-size: 70%;
+    text-align: center;
+    height: 10px;
+    color: transparent;
+}
+.brds {
+    border: solid 1px silver;
+}
+.colorB {
+    color: black;
+}
+.colorW {
+    color: white;
+}
+.bgColorB {
+    background-color: #383838;
+    color: white;
+}
+#glyphicons, #flat, #black18, #black24, #black48, #black192, #white18, #white24, #white48, #white192 {
+    display: none;
+}
+.show {
+    display: grid !important;
+}
+.showColor {
+    color: inherit;
+}
