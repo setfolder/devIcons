@@ -10,3 +10,5 @@ Use the context menu of the browser to:
 - Save the icon in the selected location.  
 - Copy the icon to the clipboard.  
 - View the icon parameters.
+
+https://setfolder.github.io/devIcons/
