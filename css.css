@@ -127,7 +127,7 @@ aside {
     background-color: #383838;
     color: white;
 }
-#glyphicons, #flat, #black18, #black24, #black48, #black192, #white18, #white24, #white48, #white192 {
+#glyphicons, #flat, #black18, #black24, #black36, #black48, #black192, #white18, #white24, #white36, #white48, #white192 {
     display: none;
 }
 .show {
